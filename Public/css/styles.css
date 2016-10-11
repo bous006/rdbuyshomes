@@ -1,0 +1,344 @@
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+  }
+
+  /*Media Queries*/
+  #headerImage { 
+    background-image: url(../images/front-test3.jpg); 
+  }
+  @media only screen and (max-width: 480px) {
+    #headerImage { 
+      background-image: url(../images/front.jpg); 
+    }
+  }
+
+  /*Headers*/
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.well-height{
+  height: 300px;
+}
+
+.learn-buttons{
+  font-weight: bold;
+}
+
+#buyButton:hover{
+  background-color: #7ba03b;
+  color: #fff;
+}
+
+#sellButton:hover{
+  background-color: #ad5656;
+  color: #fff;
+}
+
+#contactButton:hover{
+  background-color: #4a919c;
+  color: #fff;
+}
+
+/*Property Page*/
+
+/*embedded maps*/
+.sub-title{
+   font-size: 14px; 
+}
+
+/*To stop auto scroll*/
+.no-scroll{
+    data-interval: false;
+}
+
+/*gallery styles*/
+#gallery-main .caption {
+  background: #777;
+  position: absolute;
+  width: 555px;
+  height: 400px;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#gallery-main .caption:hover {
+  opacity: .75;
+}
+#gallery-main .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#gallery-main .caption .caption-content i {
+  margin-top: -12px;
+}
+
+/*Scroll to top*/
+.scrollToTop{
+    width:100px; 
+    height:130px;
+    padding:10px; 
+    text-align:center; 
+    background: whiteSmoke;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position:fixed;
+    top:75px;
+    right:40px;
+    display:none;
+    background: url('arrow_up.png') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+    text-decoration:none;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/*Contact Styles*/
+#contactNavBar{
+  background-color: #4a919c;
+  border-color: #4a919c;
+}
+
+#contactNavBar .navbar-toggle{
+  background-color: #4a919c;
+  border-color: #fff;
+}
+
+#contactNavBar .navbar-collapse{
+  background-color: #4a919c;
+  border-color: #fff;
+}
+
+#contactNavBar a{
+  color: #fff;
+}
+
+#contactNavBar a:hover{
+  color: #000;
+}
+
+.contact-button-accent{
+  background-color: #4a919c;
+  border-color: #4a919c;
+  color: #fff;
+  font-weight: bold;
+}
+
+.contact-button-accent:hover{
+  background-color: #4a919c;
+  border-color: #4a919c;
+  color: #000;
+  font-weight: bold;
+}
+
+/*Buy Page Styles*/
+#buyNavBar{
+  background-color: #7ba03b;
+  border-color: #7ba03b;
+}
+
+#buyNavBar .navbar-toggle{
+  background-color: #7ba03b;
+  border-color: #fff;
+}
+
+#buyNavBar .navbar-collapse{
+  background-color: #7ba03b;
+  border-color: #fff;
+}
+
+#buyNavBar a{
+  color: #fff;
+}
+
+#buyNavBar a:hover{
+  color: #000;
+}
+
+.buy-button-accent{
+  background-color: #7ba03b;
+  border-color: #7ba03b;
+  color: #fff;
+  font-weight: bold;
+}
+
+.buy-button-accent:hover{
+  background-color: #7ba03b;
+  border-color: #7ba03b;
+  color: #000;
+  font-weight: bold;
+}
+
+/*Sell Page Styles*/
+#sellNavBar{
+  background-color: #ad5656;
+  border-color: #ad5656;
+}
+
+#sellNavBar .navbar-toggle{
+  background-color: #ad5656;
+  border-color: #fff;
+}
+
+#sellNavBar .navbar-collapse{
+  background-color: #ad5656;
+  border-color: #fff;
+}
+
+#sellNavBar a{
+  color: #fff;
+}
+
+#sellNavBar a:hover{
+  color: #000;
+}
+
+.sell-button-accent{
+  background-color: #ad5656;
+  border-color: #ad5656;
+  color: #fff;
+  font-weight: bold;
+}
+
+.sell-button-accent:hover{
+  background-color: #ad5656;
+  border-color: #ad5656;
+  color: #000;
+  font-weight: bold;
+}
+
+/*General Styles*/
+.text-center{
+  text-align: center;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.align-right{
+  text-align: right;
+}
+
+.feature-center .icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 2px solid #00941b;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 0 0 2px #fff;
+    -moz-box-shadow: 0 0 0 2px #fff;
+    -ms-box-shadow: 0 0 0 2px #fff;
+    box-shadow: 0 0 0 2px #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    -moz-transition: all ease-in 0.25s;
+    -o-transition: all ease-in 0.25s;
+    -webkit-transition: all ease-in 0.25s;
+    transition: all ease-in 0.25s;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+.foot{
+    text-align: center;
+}
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+.carousel-control
+{
+  padding-top:10%;
+  width:5%;
+}
+
+.modal.and.carousel {
+  position: absolute; // Needed because the carousel overrides the position property
+}
